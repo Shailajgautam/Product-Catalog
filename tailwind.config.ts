@@ -33,7 +33,7 @@ export default {
         },
         skeleton: gray[200],
         background: {
-          dark: gray[100],
+          dark: colors.white,
           main: colors.white,
         },
         text: {
@@ -89,6 +89,9 @@ export default {
           'fixed-leading': (value: string) => {
             let lineHeight = value;
 
+            // Some `lineHeight` values does not end with `rem` like `normal: 1.5`.
+            // To handle these values, we add `em` at the end of them
+            // to calculate `lineHeight * fontSize` value of the current element.
             if (!lineHeight.endsWith('rem')) {
               lineHeight = `${lineHeight}em`;
             }

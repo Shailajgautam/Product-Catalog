@@ -18,10 +18,7 @@ export function CartItemListContent({
   isDense,
   cartItems,
 }: CartItemListContentProps) {
-  // `AnimatePresence` works the same way with multiple children.
-  // Just ensure that each has a unique key and components will animate in
-  // and out as they're added or removed from the tree.
-  // https://www.framer.com/motion/animate-presence/##multiple-children
+
   return (
     <AnimatePresence>
       {cartItems.map((cartItem) => {

@@ -7,7 +7,7 @@ import {
   Filter,
   Minus,
   Plus,
-  ShoppingBag,
+  ShoppingCart,
   Trash,
   X,
 } from 'lucide-react';
@@ -15,7 +15,7 @@ import {
 export const MinusIcon = Minus;
 export const PlusIcon = Plus;
 export const DeleteIcon = Trash;
-export const CartIcon = ShoppingBag;
+export const CartIcon = ShoppingCart;
 export const CloseIcon = X;
 export const CheckIcon = Check;
 export const CheckOutlinedIcon = CheckCircle;
