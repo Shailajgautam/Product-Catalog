@@ -19,12 +19,12 @@ type LayoutHeaderProps = React.PropsWithChildren;
 
 export function LayoutHeader({ children }: LayoutHeaderProps) {
   return (
-    <header className="fixed z-10 h-app-header w-full bg-background-main shadow-lg">
+    <header className="fixed z-10 h-app-header w-full bg-background-main shadow-lg ">
       <Container
         maxWidth="2xl"
         className="flex h-full items-center justify-between p-4"
       >
-        <NextLink href="/" className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary-main mb-3">
+        <NextLink href="/" className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary-main ">
           {APP_TITLE}
         </NextLink>
         {children}
