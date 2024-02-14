@@ -24,8 +24,8 @@ export function CheckoutForm() {
     <div className='rounded-xl'>
       <Form ref={formRef} action={formAction}>
       <FormItem errorMessages={fieldErrors?.nameSurname?._errors}>
-        <FormItemLabel htmlFor="name">Name </FormItemLabel>
-        <Input id="name" name="name" placeholder="Name " />
+        <FormItemLabel htmlFor="nameSurname">Name </FormItemLabel>
+        <Input id="nameSurname" name="nameSurname" placeholder="Name " />
         <FormItemErrorMessage />
       </FormItem>
       <FormItem errorMessages={fieldErrors?.cardNumber?._errors}>
