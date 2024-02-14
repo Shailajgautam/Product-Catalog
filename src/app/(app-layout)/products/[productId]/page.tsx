@@ -1,10 +1,10 @@
-import { PageTitle } from '@/common/page-title';
-import { Paper } from '@/common/paper';
-import { Section, SectionTitle } from '@/common/section';
-import { ProductDetails } from '@/products/product-details';
-import { getOneProductById } from '@/products/product-fetchers';
-import { ProductGridSkeleton } from '@/products/product-grid';
-import { RelatedProducts } from '@/products/related-products';
+import { PageTitle } from '@/components/common/page-title';
+import { Paper } from '@/components/common/paper';
+import { Section, SectionTitle } from '@/components/common/section';
+import { ProductDetails } from '@/components/products/product-details';
+import { getOneProductById } from '@/components/products/product-fetchers';
+import { ProductGridSkeleton } from '@/components/products/product-grid';
+import { RelatedProducts } from '@/components/products/related-products';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 

@@ -1,4 +1,4 @@
-import { handleErrors } from '@/error-handling/error-handling-utils';
+import { handleErrors } from '@/components/error-handling/error-handling-utils';
 import type { NextRequest, NextResponse } from 'next/server';
 
 export const createHandler =

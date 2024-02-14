@@ -1,9 +1,9 @@
-import { PageTitle } from '@/common/page-title';
-import { Section, SectionTitle } from '@/common/section';
-import { ProductFilter } from '@/search/product-filter';
-import { ProductFilterDrawer } from '@/search/product-filter-drawer';
-import { SearchResults } from '@/search/search-results';
-import { SelectedFilters } from '@/search/selected-filters';
+import { PageTitle } from '@/components/common/page-title';
+import { Section, SectionTitle } from '@/components/common/section';
+import { ProductFilter } from '@/components/search/product-filter';
+import { ProductFilterDrawer } from '@/components/search/product-filter-drawer';
+import { SearchResults } from '@/components/search/search-results';
+import { SelectedFilters } from '@/components/search/selected-filters';
 
 export default function SearchPage() {
   return (

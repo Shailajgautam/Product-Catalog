@@ -1,7 +1,7 @@
 import { createHandler } from '@/api/api-utils';
-import { filterProducts } from '@/search/search-fetchers';
-import type { ProductFilterArgs } from '@/search/search-types';
-import { ProductFilterKey } from '@/search/search-utils';
+import { filterProducts } from '@/components/search/search-fetchers';
+import type { ProductFilterArgs } from '@/components/search/search-types';
+import { ProductFilterKey } from '@/components/search/search-utils';
 import { NextResponse } from 'next/server';
 
 export const GET = createHandler(async (request) => {

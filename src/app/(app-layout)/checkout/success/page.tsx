@@ -1,9 +1,9 @@
-import { getCart } from '@/cart/cart-fetchers';
-import { CheckoutSuccessMessage } from '@/checkout/checkout-success-message';
-import { Container } from '@/common/container';
-import { PageTitle } from '@/common/page-title';
-import { Paper } from '@/common/paper';
-import { Section, SectionTitle } from '@/common/section';
+import { getCart } from '@/components/cart/cart-fetchers';
+import { CheckoutSuccessMessage } from '@/components/checkout/checkout-success-message';
+import { Container } from '@/components/common/container';
+import { PageTitle } from '@/components/common/page-title';
+import { Paper } from '@/components/common/paper';
+import { Section, SectionTitle } from '@/components/common/section';
 import { redirect } from 'next/navigation';
 
 export default async function CheckoutSuccessPage() {

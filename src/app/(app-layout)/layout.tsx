@@ -1,6 +1,6 @@
-import { CartDrawer } from '@/cart/cart-drawer';
-import { LayoutContent, LayoutHeader } from '@/layout/layout';
-import { Footer } from '@/common/footer';
+import { CartDrawer } from '@/components/cart/cart-drawer';
+import { LayoutContent, LayoutHeader } from '@/components/layout/layout';
+import { Footer } from '@/components/common/footer';
 
 type AppLayoutProps = React.PropsWithChildren;
 

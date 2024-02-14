@@ -3,7 +3,7 @@ import colors from 'tailwindcss/colors';
 import defaultTheme from 'tailwindcss/defaultTheme';
 import plugin from 'tailwindcss/plugin';
 
-const primaryColor = colors.teal;
+const primaryColor = colors.orange;
 const secondaryColor = colors.gray;
 const successColor = colors.green;
 const errorColor = colors.red;
@@ -89,9 +89,6 @@ export default {
           'fixed-leading': (value: string) => {
             let lineHeight = value;
 
-            // Some `lineHeight` values does not end with `rem` like `normal: 1.5`.
-            // To handle these values, we add `em` at the end of them
-            // to calculate `lineHeight * fontSize` value of the current element.
             if (!lineHeight.endsWith('rem')) {
               lineHeight = `${lineHeight}em`;
             }

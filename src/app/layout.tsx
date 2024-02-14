@@ -1,7 +1,7 @@
-import { TooltipProvider } from '@/common/tooltip';
-import { BaseSWRConfig } from '@/http-client/base-swr-config';
-import { Layout,} from '@/layout/layout';
-import '@/styles/global.css';
+import { TooltipProvider } from '@/components/common/tooltip';
+import { BaseSWRConfig } from '@/components/http-client/base-swr-config';
+import { Layout,} from '@/components/layout/layout';
+import '@/components/styles/global.css';
 import type { Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import { twJoin } from 'tailwind-merge';
